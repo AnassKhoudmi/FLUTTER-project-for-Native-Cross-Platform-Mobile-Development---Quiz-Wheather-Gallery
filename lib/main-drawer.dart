@@ -72,17 +72,17 @@ class MainDrawer extends StatelessWidget {
           Divider(
             color: Colors.deepOrange,
           ),
-          ListTile(
-            title: Text(
-              'Camera',
-              style: TextStyle(fontSize: 20),
-            ),
-            onTap: () {
-              Navigator.of(context).pop();
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => CameraPage()));
-            },
-          )
+          // ListTile(
+          //   title: Text(
+          //     'Camera',
+          //     style: TextStyle(fontSize: 20),
+          //   ),
+          //   onTap: () {
+          //     Navigator.of(context).pop();
+          //     Navigator.push(context,
+          //         MaterialPageRoute(builder: (context) => CameraPage()));
+          //   },
+          // )
         ],
       ),
     );
